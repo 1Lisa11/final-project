@@ -2,52 +2,57 @@ body {
     background-color: rgb(154, 165, 250);
 }
 
-font-family: 'Cinzel', serif;
+/* font-family: 'Cinzel', serif;
 font-family: 'Great Vibes', cursive;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', sans-serif; */
 
 
 header {
     
-    height: 200 px;
-    width: 98%;
+    height: 400 px;
+    width: 100%;
     border: 2px solid black;
     margin: 5px;
-    padding: 10px
+    /* padding: 10px */
+   
 }
 
 h1 {
-    font-family: great Vibes;
+    font-family: great Vibes, cursive;
     text-align: center;
 }
 
 .moon {
     float: left;
+    padding-left: 45%;
+    padding-top: 3px;
 
 }
 
-.cards {
+/* .cards {
+   
     float: right;
-}
+} */
 
 nav {
-    background-color: hwb(276 65% 2%);
-    height: 120px;
-    width: 120px;
+    background-color: hwb(233 75% 11%);
+    height: 80px;
+    width: 80px;
     border: 3px solid black;
-    margin-bottom: 10px;
-    font-family: cinzel;
+    font-family: cinzel, serif;
     text-align: center;
-    ;
+    /* float: right; */
+    padding-top: 14px;
+   
+ 
 }
-
    
 a { text-decoration: none;}
     
 
 div2 {
     float: right;
-    background-color:rgb(97, 191, 104)
+    background-color:rgb(55, 175, 63)
     height: 800px;
     width: 100%;
     border: 3px solid black;
@@ -67,14 +72,17 @@ div3 {
 }
 
 footer {
-
+    float: right;
     background-color: rgb(213, 21, 34);
     height: 140px;
     width:100%;
     border: 3px solid black;
+    
 }
 
-.fa-brands {
-    justify-content: center;
-    
+.foot {
+    height: 20px;
+    width: 180px;
+    padding-left: 47%;
+    padding-top: 100px;
 }
