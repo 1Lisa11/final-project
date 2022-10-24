@@ -29,42 +29,38 @@ h1 {
     padding-top: 18px;
 }
     
-
-
 nav {
     position: fixed;
 }
 
 .navbar a {  
-    overflow: hidden;
     font-family: cinzel, serif;
     display: block;
     text-align: center;
     color:black
 }
    
-.navbar {
+/* .navbar {
     padding-top: 20px;
-}
-a { text-decoration: none;}
+} */
+
+a { text-decoration: none;
+color: black;}
 
 .home {
-    padding-top: 10px;
+    padding-top: 34px;
 }
 .contact {
-    padding-top: 10px;
+    padding-top: 4px;
 }
 .about {
-    padding-top: 10px;
+    padding-top: 4px;
 }
 
-
-.audio {
+/* .audio {
     position: fixed;
     float: right;
-    padding-top: 196px;
-    
-}
+} */
     
 aside {
     background-color: #8d09a1;
@@ -82,25 +78,28 @@ footer {
 .foot {
     height: 20px;
     width: 180px;
-    padding-left: 47%;
-    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    padding-top: 45px;
+    
 }
 .insta {
     padding-top: 16px;
 }
 
 .fb {
-    padding-top: 18px;
+    padding-top: 10px;
 }
 
 .float-right {
     float:right;
-    width: 49%;
+    width: 50%;
     height: 605px;
     margin-top: 5px;
 }
 .float-left {
-    width: 49%;
+    width: 50%;
     height: 605px;
     margin-top: 5px;
 }
@@ -145,7 +144,14 @@ input[type=text], select, textarea {
   }
 
   .info {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: blanchedalmond;
   }
+
+  .photo {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    }
