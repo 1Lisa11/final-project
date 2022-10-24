@@ -1,97 +1,120 @@
-body {
-    background-color: rgb(154, 165, 250);
+.wrapper {
+    border: solid 4px black;
+    margin-bottom: 5px;
 }
 
 /* font-family: 'Cinzel', serif;
 font-family: 'Great Vibes', cursive;
 font-family: 'Quicksand', sans-serif; */
 
-
-header {
-    
-    height: 400 px;
+.full-width {
     width: 100%;
-    border: 2px solid black;
-    margin: 5px;
-    /* padding: 10px */
-   
+    height: 120px;
+    background-color: rgb(134, 181, 165);
+}
+header {
+    position: fixed;
+
 }
 
 h1 {
+    overflow: hidden;
     font-family: great Vibes, cursive;
     text-align: center;
 }
 
 .moon {
-    float: left;
-    padding-left: 45%;
-    padding-top: 3px;
-
+    overflow: hidden;
+    padding-left: 40%;
+    padding-top: 18px;
 }
+    
 
-/* .cards {
-   
-    float: right;
-} */
 
 nav {
-    background-color: hwb(233 75% 11%);
-    height: 80px;
-    width: 80px;
-    border: 3px solid black;
+    position: fixed;
+}
+
+.navbar a {  
+    overflow: hidden;
     font-family: cinzel, serif;
+    display: block;
     text-align: center;
-    /* float: right; */
-    padding-top: 14px;
-   
- 
+    color:black
 }
    
+.navbar {
+    padding-top: 20px;
+}
 a { text-decoration: none;}
-    
 
-div2 {
-    float: right;
-    background-color:rgb(55, 175, 63)
-    height: 800px;
-    width: 100%;
-    border: 3px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.home {
+    padding-top: 10px;
+}
+.contact {
+    padding-top: 10px;
+}
+.about {
+    padding-top: 10px;
 }
 
-div3 {
-   float: right;
-    background-color: antiquewhite;
-    height: 300px;
-    width: 100%;
-    border: 3px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+.audio {
+    position: fixed;
+    float: right;
+    padding-top: 196px;
     
+}
+    
+aside {
+    background-color: #8d09a1;
+    clear: left;
+}
+
+section {
+    background-color: antiquewhite;
 }
 
 footer {
-    float: right;
-    background-color: rgb(213, 21, 34);
-    height: 140px;
-    width:100%;
-    border: 3px solid black;
-    
+    margin-top: 5px;
 }
 
 .foot {
     height: 20px;
     width: 180px;
     padding-left: 47%;
-    padding-top: 100px;
+    padding-top: 40px;
+}
+.insta {
+    padding-top: 16px;
 }
 
+.fb {
+    padding-top: 18px;
+}
+
+.float-right {
+    float:right;
+    width: 49%;
+    height: 605px;
+    margin-top: 5px;
+}
+.float-left {
+    width: 49%;
+    height: 605px;
+    margin-top: 5px;
+}
+
+.video {
+    margin-top: 5px;
+}
+
+/* Contact form */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
+    border: 1px solid rgb(238, 196, 235); /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
@@ -99,17 +122,17 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
-  /* Style the submit button with a specific background color etc */
+  /* Style the submit button with a light purple background color*/
   input[type=submit] {
     background-color: #b94fd6;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  /* When moving the mouse over the submit button, add a darker purple color */
   input[type=submit]:hover {
     background-color: #8d09a1;
   }
@@ -117,6 +140,12 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f6ddf5;
     padding: 20px;
+  }
+
+  .info {
+    height: 400px;
+    width: 100%;
+    background-color: blanchedalmond;
   }
