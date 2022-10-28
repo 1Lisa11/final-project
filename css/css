@@ -103,6 +103,10 @@ footer {
 .deck {
     text-align: center;
 }
+/* .box1 {
+    height: 20px;
+    width: 20px;
+} */
 
 .video {
     margin-top: 5px;
